@@ -1,0 +1,52 @@
+section.left  {
+    margin-top: -42px;
+    background-color: #fff;
+    width: 31vh;
+    display:  flex;
+   
+    
+    flex-direction: column;
+    
+  }
+  .guide-render {
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .guide-render h3 {
+    color: #606060;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    
+  }
+  .channel a img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+  }
+  .channel a {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+  }
+  
+  
+  
+  .items a {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+  }
+  footer#footer {
+    line-height: 1.1rem;
+    font-size: 13px;
+    color: #606060;
+    margin-left: 24px;
+    gap: 2px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 12px;
+  }

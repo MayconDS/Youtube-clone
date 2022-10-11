@@ -1,0 +1,139 @@
+header {
+    background-color: #fff;
+    height: 7.4rem;
+  }
+  
+a svg {
+    height: 24px;
+    width: 24px;
+}
+
+nav {
+    padding: 0rem 2rem;
+  
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+#line {
+    background-color :rgb(233, 233, 233);
+    height: 0.1px;
+    width: 28vh;
+    position: relative;
+    
+    margin-bottom: 20px;
+}
+#line-shorts {
+    background-color :#D4D4D4;
+    height: 4px;
+    width: 100%;
+    position: relative;
+    
+    margin-bottom: 20px;
+}
+  
+  
+#logo {
+    width: 110px;
+    height: 60px;
+}
+.search {
+    display: flex;
+    align-items: center;
+    outline: 0;
+}
+.search input {
+    margin-left: 30px;
+    border-radius: 0.15rem;
+    padding: 0.5rem 0.35rem;
+    outline: 0;
+    border: 1px solid #cccccc;
+    width: 33.5rem;
+    height: 40px;
+}
+.search input::placeholder {
+    font-size: 1rem;
+    font-weight: 500
+}
+.search a {
+    border: 1px solid #cccccc;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    color: #303030;
+    align-items: center;
+    height: 40px; 
+    background-color: #f8f8f8;
+    transition: all ease 0.2s
+}
+.search a:hover {
+    background-color: #f0f0f0;
+}
+.mic {
+    margin-left: 5px;
+    background-color: #F9F9F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 40px;
+    
+    height: 40px;
+}
+.features {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.features a {
+    color: black;
+    font-size: 19px;
+}
+  
+  
+.features img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+/* Nav bottom */
+#nav-bottom {
+    border-top: 1px solid  rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.1);
+    padding: 0.75rem 0rem;
+  
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+  #nav-bottom ul {
+    display: flex;
+    gap: 15px;
+    
+    list-style: none;
+  }
+  
+  #nav-bottom a{
+    display: flex;
+    text-decoration: none;
+    height: 32px;
+    min-height: 12px;
+    padding: 0 0.7rem;
+    color: #030303;
+    background-color: rgba(0, 0, 0, 0.05);
+    align-items: center;
+    border-radius: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    transition: all ease 0.3s;
+  }
+  #nav-bottom a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  #nav-bottom a#focused {
+    background-color: black;
+    color: white;
+  }
+  

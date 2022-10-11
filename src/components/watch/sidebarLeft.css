@@ -1,0 +1,79 @@
+
+#lineWatch {
+    height: 0.2px;
+    background-color: rgb(222, 222, 222)
+}
+.player { 
+    
+    display: flex;
+    flex-direction: column;
+}
+.player #playerVideo {
+    
+    height: 67.5vh;
+}
+.player #titleVideo {
+    margin-top: 15px;
+}
+.player .info {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    margin-top: 15px;
+}
+.player .timeline {
+    display: flex;
+    justify-content: space-between;
+}
+.timeline .signUp button {
+    outline: none;
+    border: none;
+    padding: 10px 16px;
+    background-color: #c00;
+    color: white;
+    font-weight: bold;
+}
+.channel {
+    display: flex;
+    gap: 20px;
+    
+}
+.channel .imgProfile img {
+    border-radius: 50%;
+}
+.infoChannel {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+.infoChannel .nameProfile h1 {
+    font-size: 14px;
+}
+.infoChannel .nameProfile span {
+    font-size: 12px;
+}
+#icon-like {
+    width: 20px;
+}
+#icon-dontLike {
+    width: 15px;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+.info a#items {
+    font-size: 14px;
+    font-weight: 500;
+    color: #030303;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.views {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
