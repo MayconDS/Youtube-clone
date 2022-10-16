@@ -1,4 +1,4 @@
-const API_KEY = 'AIzaSyBOCVO4r5rOh2qX_rk9o32xTPJLJFCgCQ8'
+const API_KEY = import.meta.env.VITE_API_KEY
 
 const searchVideo = async (q) => {
   const response = await fetch(
