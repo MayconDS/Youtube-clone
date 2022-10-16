@@ -3,42 +3,54 @@
     height: 0.2px;
     background-color: rgb(222, 222, 222)
 }
-.player { 
-    
+.watch-container { 
     display: flex;
     flex-direction: column;
 }
-.player #playerVideo {
-    
-    height: 67.5vh;
-}
-.player #titleVideo {
+#watch-player {
+    max-width: 953px;
+    max-height: 535px;
+    width: 953px;
+    height: 535px;
+} 
+
+.watch-container #titleVideo {
     margin-top: 15px;
 }
-.player .info {
+.info-video {
     display: flex;
-    width: 100%;
+    
     gap: 10px;
     margin-top: 15px;
 }
-.player .timeline {
+.items {
+    
+    display: flex;
+    gap: 10px;
+    
+}
+.watch-container .timeline {
     display: flex;
     justify-content: space-between;
 }
 .timeline .signUp button {
+    border-radius: 2px;
     outline: none;
+    font-size: 14px;
     border: none;
     padding: 10px 16px;
     background-color: #c00;
     color: white;
-    font-weight: bold;
+    font-weight:500;
+    cursor: pointer;
 }
 .channel {
     display: flex;
-    gap: 20px;
-    
+    gap: 20px; 
 }
 .channel .imgProfile img {
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
 }
 .infoChannel {
@@ -54,17 +66,15 @@
 .infoChannel .nameProfile span {
     font-size: 12px;
 }
+
 #icon-like {
     width: 20px;
 }
 #icon-dontLike {
     width: 15px;
 }
-.info {
-    display: flex;
-    justify-content: space-between;
-}
-.info a#items {
+
+.info-video a#items {
     font-size: 14px;
     font-weight: 500;
     color: #030303;
@@ -76,4 +86,55 @@
     gap: 10px;
     display: flex;
     flex-direction: column;
+}
+
+a#showMore  {
+    margin-top: 10px;
+    color: #606060;
+    font-weight: 500
+}
+.descriptionProfile span{
+    color: #030303
+}
+.comments {
+  
+    margin-top: 30px;
+}
+
+/* Media Queries */
+
+@media(max-width: 1416px) {
+    #watch-player {
+        width: 100%;
+        height: 535px
+    }
+}
+
+@media (max-width: 1230px) {
+    #watch-player {
+        width: 640px;
+        height: 360px;
+    }
+    .info-video {
+         flex-direction: column;
+         width: 100%;
+    }
+}
+@media(max-width: 1016px) {
+    #watch-player {
+        width: 100%;
+        height: 535px
+    }
+}
+@media(max-width: 906px) {
+    #watch-player {
+        width: 100%;
+        height: 435px
+    }
+}
+@media(max-width: 606px) {
+    #watch-player {
+        width: 100%;
+        height: 285px
+    }
 }

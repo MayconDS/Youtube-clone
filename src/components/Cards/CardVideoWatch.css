@@ -1,0 +1,39 @@
+.card-video-watch {
+  cursor: pointer;
+  display: flex;
+  gap: 6px;
+  
+      
+}
+.card-video-watch  img#thumbnail {
+  width: 168px;
+  height: 94px;
+}
+.timeline-watch {
+  margin-top: 0px;
+  display: flex;
+  gap: 10px;
+}
+.timeline-watch img#profile-pic {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+}
+.timeline-watch span {
+  font-weight: 500;
+  font-size: 14px;
+}
+.info-watch {
+  display: flex;
+  flex-direction: column;
+    
+}
+.info-watch span{
+  margin-top: 8px;
+  color: #606060;
+  font-size: 12px;
+}
+
+
+
+

@@ -9,34 +9,7 @@ section.right {
     gap: 16px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-  .card-video {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 50px;
-  }
-  .card-video  img#thumbnail {
-    width: 270px;
-    height: 152px;
-  }
-  .timeline {
-    margin-top: 10px;
-    display: flex;
-    gap: 10px;
-  }
-  .timeline img#profile-pic {
-    height: 36px;
-    width: 36px;
-    border-radius: 50%;
-  }
-  .timeline span {
-    font-weight: 500;
-    font-size: 14px;
-  }
-  .info span{
-    margin-top: 8px;
-    color: #606060;
-    font-size: 12px;
-  }
+  
   
   /* DIV SHORTS */
   
@@ -57,25 +30,7 @@ section.right {
     color: #030303
   }
   
-  .card-shorts img{
-    width: 170px;
-    height: 300px;
-  }
-  .card-shorts h1 {
-    font-size: 14px;
-  }
-  .card-shorts {
-    display: flex;
-    flex-direction: column;
-    
-  }
-  .timeline-shorts {
-    display: flex;
-    flex-direction: column;
-  }
-  .timeline span {
-    color: #606060
-  }
+  
   .arrow-down {
     margin-top: 40px;
     height: 50px;

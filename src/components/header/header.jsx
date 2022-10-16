@@ -1,8 +1,16 @@
+import { YoutubeContext } from "../../context/context";
+import { useState, useContext } from "react";
+
+import searchVideo from "../../services/api";
 import { Link } from "react-router-dom";
 import "./header.css";
 import NavBottom from "./navBottom";
 
 const Header = ({ navBottom = true }) => {
+  const [youtubeState, dispatch] = useContext(YoutubeContext);
+
+  const [searchInput, setSearchInput] = useState("");
+
   return (
     <header>
       <nav id="nav-top">
@@ -19,9 +27,22 @@ const Header = ({ navBottom = true }) => {
         </Link>
 
         {/* <!-- HEADER-CENTER  SEARCH --> */}
+
         <div className="search">
-          <input type="search" name="" placeholder="Pesquisar" />
-          <a href="">
+          <input
+            onChange={(e) => setSearchInput(e.target.value)}
+            type="search"
+            name=""
+            placeholder="Pesquisar"
+          />
+          <button
+            onClick={() =>
+              dispatch({
+                type: "SET_SEARCH",
+                payload: { search: searchInput },
+              })
+            }
+          >
             <svg
               viewBox="0 0 24 24"
               preserveAspectRatio="xMidYMid meet"
@@ -36,7 +57,7 @@ const Header = ({ navBottom = true }) => {
                 ></path>
               </g>
             </svg>
-          </a>
+          </button>
           <div className="mic">
             <svg
               viewBox="0 0 24 24"
@@ -54,6 +75,7 @@ const Header = ({ navBottom = true }) => {
             </svg>
           </div>
         </div>
+
         {/* <!-- HEADER RIGHT --> */}
         <div className="features">
           <a href="">
@@ -91,7 +113,7 @@ const Header = ({ navBottom = true }) => {
           <img
             src="https://yt3.ggpht.com/yti/AJo0G0mwg7ZgiruuI9CaX7L88MtSRYveIZOYPRWKm5mmxg=s88-c-k-c0x00ffffff-no-rj-mo"
             alt=""
-            srcset=""
+            srcSet=""
             id="profile-pic"
           />
         </div>
@@ -100,4 +122,5 @@ const Header = ({ navBottom = true }) => {
     </header>
   );
 };
+
 export default Header;

@@ -3,5 +3,14 @@ main.watch {
     margin-top: -40px;
     background-color: #F9F9F9;
     display: flex;
+    gap: 20px;
     padding: 1rem 1.5rem;
+}
+
+/* Media Queries */
+
+@media(max-width: 1016px) {
+    main.watch {
+        flex-direction: column;
+    }
 }

@@ -50,15 +50,17 @@ nav {
     outline: 0;
     border: 1px solid #cccccc;
     width: 33.5rem;
+    
     height: 40px;
 }
 .search input::placeholder {
     font-size: 1rem;
     font-weight: 500
 }
-.search a {
+.search button {
     border: 1px solid #cccccc;
-    width: 4rem;
+    max-width: 4rem;
+    width: 100%;
     display: flex;
     justify-content: center;
     color: #303030;
@@ -67,7 +69,7 @@ nav {
     background-color: #f8f8f8;
     transition: all ease 0.2s
 }
-.search a:hover {
+.search button:hover {
     background-color: #f0f0f0;
 }
 .mic {
@@ -99,41 +101,21 @@ nav {
 }
 
 /* Nav bottom */
-#nav-bottom {
-    border-top: 1px solid  rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid  rgba(0, 0, 0, 0.1);
-    padding: 0.75rem 0rem;
+
   
-    display: flex;
-    justify-content: flex-end;
-    
-  }
-  #nav-bottom ul {
-    display: flex;
-    gap: 15px;
-    
-    list-style: none;
-  }
-  
-  #nav-bottom a{
-    display: flex;
-    text-decoration: none;
-    height: 32px;
-    min-height: 12px;
-    padding: 0 0.7rem;
-    color: #030303;
-    background-color: rgba(0, 0, 0, 0.05);
-    align-items: center;
-    border-radius: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    width: 100%;
-    transition: all ease 0.3s;
-  }
-  #nav-bottom a:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-  }
-  #nav-bottom a#focused {
-    background-color: black;
-    color: white;
-  }
-  
+@media(max-width: 920px) {
+    .search input {
+        width: 25.5rem;
+    }
+}
+@media(max-width: 830px) {
+    .search input {
+        width: 17.5rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .search input{
+      width: 40%
+    }
+}

@@ -1,0 +1,51 @@
+.area-comment {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.area-comment img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+#comment-name {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+#comment-name a{
+    color: #606060
+}
+#comment-text {
+    font-size: 14px;
+}
+.texts {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.comment-icons {
+    align-items: center;
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+.like {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.like span {
+    font-size: 12px;
+    color: #606060
+}
+.answer {
+    margin-top: -3px
+}
+.answer span {
+    
+    color: #606060;
+    font-size: 12px;
+}

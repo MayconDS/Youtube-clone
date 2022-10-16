@@ -1,0 +1,36 @@
+.card-video-home {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  
+}
+.card-video-home  img#thumbnail {
+
+  width: 270px;
+  height: 152px;
+}
+.timeline {
+  margin-top: 12px;
+  display: flex;
+  gap: 10px;
+}
+.timeline img#profile-pic {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+}
+.timeline span {
+  font-weight: 500;
+  font-size: 14px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+
+}
+.info span{
+  margin-top: 8px;
+  color: #606060;
+  font-size: 12px;
+ }

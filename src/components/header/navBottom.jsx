@@ -1,4 +1,4 @@
-import "./header.css";
+import "./navBottom.css";
 const NavBottom = () => {
   return (
     <nav id="nav-bottom">
@@ -18,7 +18,7 @@ const NavBottom = () => {
           <a href="">Pensamentos</a>
         </li>
         <li id="list-item">
-          <a href="">Programação de computador</a>
+          <a href="">Programação</a>
         </li>
         <li id="list-item">
           <a href="">Música</a>
