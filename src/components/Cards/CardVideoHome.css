@@ -117,3 +117,13 @@
     height: 243px;
   }
 }
+@media (max-width: 440px) {
+  .card-video-home {
+    margin-left: -10px;
+  }
+  .card-video-home  img#thumbnail {
+    
+    width: 419px;
+    height: 243px;
+  }
+}
