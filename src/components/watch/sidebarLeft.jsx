@@ -199,8 +199,8 @@ const SidebarLeft = () => {
           </div>
         </div>
         <div style={{ marginTop: "15px" }} id="lineWatch"></div>
-        <div className="comments">
-          <span>2 comentários</span>
+        <div style={{ marginBottom: "15px" }} className="comments">
+          <span>3 comentários</span>
           <Comment
             img={
               "https://lh3.googleusercontent.com/ogw/AOh-ky0DqbDBqGMsBy2-8AMkDXylR6sqbJ5CfU9tN4qOXA=s32-c-mo"
