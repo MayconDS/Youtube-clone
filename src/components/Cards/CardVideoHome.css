@@ -105,6 +105,14 @@
   
   .card-video-home  img#thumbnail {
 
+    width: 439px;
+    height: 250px;
+  }
+}
+@media (max-width: 470px) {
+  
+  .card-video-home  img#thumbnail {
+
     width: 419px;
     height: 243px;
   }
