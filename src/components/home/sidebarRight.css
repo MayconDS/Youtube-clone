@@ -103,7 +103,7 @@ section.right {
   }
   @media (max-width: 600px) {
     .grid-4 {
-      margin-left: 0%;
+      justify-content: center;
       grid-template-columns: 1fr  
     }
     

@@ -116,7 +116,16 @@ nav {
 }
 
 @media (max-width: 700px) {
+    .mic {
+        display: none;
+    }
+    #iconCam {
+        display: none;
+    }
+    #iconBell {
+        display: none;
+    }
     .search input{
-      width: 40%
+      width: 100%
     }
 }

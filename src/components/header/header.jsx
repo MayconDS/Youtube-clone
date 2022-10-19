@@ -78,7 +78,7 @@ const Header = ({ navBottom = true }) => {
 
         {/* <!-- HEADER RIGHT --> */}
         <div className="features">
-          <a href="">
+          <a id="iconCam" href="">
             <svg
               viewBox="0 0 24 24"
               preserveAspectRatio="xMidYMid meet"
@@ -94,7 +94,7 @@ const Header = ({ navBottom = true }) => {
               </g>
             </svg>
           </a>
-          <a href="">
+          <a id="iconBell" href="">
             <svg
               viewBox="0 0 24 24"
               preserveAspectRatio="xMidYMid meet"
