@@ -1,6 +1,3 @@
-import { useEffect, useState, useContext } from "react";
-import { YoutubeContext } from "../../context/context";
-import {} from "react";
 import CardShorts from "../Cards/CardShorts";
 import CardVideoHome from "../Cards/CardVideoHome";
 import "./sidebarRight.css";

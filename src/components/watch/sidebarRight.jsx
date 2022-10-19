@@ -1,7 +1,4 @@
-import { useContext, useEffect, useState } from "react";
-import { YoutubeContext } from "../../context/context";
 import CardVideoWatch from "../Cards/CardVideoWatch";
-import NavBottom from "../header/navBottom";
 import "./sidebarRight.css";
 
 const SidebarRight = ({ items }) => {

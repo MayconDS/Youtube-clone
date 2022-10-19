@@ -2,9 +2,8 @@ import "./sidebarLeft.css";
 import ReactPlayer from "react-player";
 import { AiFillLike } from "react-icons/ai";
 import { BiDislike } from "react-icons/bi";
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import { YoutubeContext } from "../../context/context";
-import { Link } from "react-router-dom";
 import Comment from "./Comment";
 
 const SidebarLeft = () => {

@@ -1,19 +1,19 @@
 .card-shorts img{
     width: 170px;
     height: 300px;
-  }
-  .card-shorts h1 {
+}
+.card-shorts h1 {
     font-size: 14px;
-  }
-  .card-shorts {
+}
+.card-shorts {
     display: flex;
     flex-direction: column;
     
-  }
-  .timeline-shorts {
+}
+.timeline-shorts {
     display: flex;
     flex-direction: column;
-  }
-  .timeline span {
+}
+.timeline span {
     color: #606060
-  }
+}

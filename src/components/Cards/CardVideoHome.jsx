@@ -12,7 +12,6 @@ const CardVideoHome = ({
   description,
 }) => {
   const data = [thumb, title, channelTitle, idVideo, description];
-  console.log(data);
   const [youtubeState, dispatch] = useContext(YoutubeContext);
 
   const setContext = () => {
