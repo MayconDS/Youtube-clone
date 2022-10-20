@@ -133,6 +133,9 @@ a#showMore  {
     }
 }
 @media(max-width: 606px) {
+    .descriptionProfile {
+       width: 30px;
+    }
     #watch-player {
         width: 100%;
         height: 285px
