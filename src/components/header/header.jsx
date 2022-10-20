@@ -111,7 +111,7 @@ const Header = ({ navBottom = true }) => {
             </svg>
           </a>
           <img
-            src="https://yt3.ggpht.com/yti/AJo0G0mwg7ZgiruuI9CaX7L88MtSRYveIZOYPRWKm5mmxg=s88-c-k-c0x00ffffff-no-rj-mo"
+            src="https://rotony.com.br/wp-content/uploads/2021/09/free-youtube-logo-icon-2431-thumb.png"
             alt=""
             srcSet=""
             id="profile-pic"
